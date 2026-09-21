@@ -5,6 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [3.2.0](https://github.com/unabandoned/pbkdf2/compare/pbkdf2-v3.1.6...pbkdf2-v3.2.0) (2026-09-21)
+
+
+### Features
+
+* onboard as @unabandoned/pbkdf2 and drop the create-hash family ([#1](https://github.com/unabandoned/pbkdf2/issues/1)) ([a2d8ec9](https://github.com/unabandoned/pbkdf2/commit/a2d8ec95f8a931fef01f5bd13ccdeecd21158524))
+
+
+### Bug Fixes
+
+* 60 - use browser.js in the browser, instead of index.js; include lib folder in the published package ([#62](https://github.com/unabandoned/pbkdf2/issues/62)) ([61820dd](https://github.com/unabandoned/pbkdf2/commit/61820dd5181ddc6db4baf7af0349b71d7de4e7ee))
+
 ## [v3.1.6](https://github.com/browserify/pbkdf2/compare/v3.1.5...v3.1.6) - 2026-05-26
 
 ### Commits
