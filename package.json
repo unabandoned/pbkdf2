@@ -33,8 +33,7 @@
     "tape": "5.10.2",
     "semver": "6.3.1",
     "@types/node": "25.9.7",
-    "typescript": "next",
-    "object.assign": "4.1.7"
+    "typescript": "next"
   },
   "dependencies": {
     "@unabandoned/hash.js": "^1.4.0",

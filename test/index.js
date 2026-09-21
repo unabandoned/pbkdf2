@@ -372,12 +372,10 @@ tape('coerces `-0` keylen to `+0` (GHSA-xcx4-h4w9-hqq4)', function (t) {
 
 runTests('JavaScript pbkdf2', js);
 
-var assign = require('object.assign');
-
 /* istanbul ignore next */
 if (!process.browser) {
 	/* eslint global-require: 0 */
-	var browser = assign({}, js);
+	var browser = Object.assign({}, js);
 	browser.pbkdf2Sync = browserImpl;
 	runTests('browser pbkdf2', {
 		pbkdf2: browser.pbkdf2,
