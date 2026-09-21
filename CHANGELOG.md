@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [3.2.1](https://github.com/unabandoned/pbkdf2/compare/pbkdf2-v3.2.0...pbkdf2-v3.2.1) (2026-09-21)
+
+
+### Dependencies & maintenance
+
+* **deps:** update dependency @types/node to v25.9.7 ([#4](https://github.com/unabandoned/pbkdf2/issues/4)) ([e0e3543](https://github.com/unabandoned/pbkdf2/commit/e0e3543a38831a86396821785c103b12fe80be6e))
+* **deps:** update dependency fflate to v0.8.3 [security] ([#3](https://github.com/unabandoned/pbkdf2/issues/3)) ([2d22c8d](https://github.com/unabandoned/pbkdf2/commit/2d22c8da67a85c73707bce9657bf71c3629482f9))
+
 ## [3.2.0](https://github.com/unabandoned/pbkdf2/compare/pbkdf2-v3.1.6...pbkdf2-v3.2.0) (2026-09-21)
 
 
