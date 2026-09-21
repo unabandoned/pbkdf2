@@ -1,0 +1,29 @@
+schema: 1
+
+package: "@unabandoned/pbkdf2"
+
+upstream:
+  repo: crypto-browserify/pbkdf2
+  reason: >-
+    still released, but shipping create-hash and create-hmac - both untouched
+    since 2018 - as runtime dependencies
+
+summary: >-
+  PBKDF2 key derivation for Node and the browser, using node:crypto where it is
+  available and a pure-JavaScript implementation everywhere else.
+
+why-forked: >-
+  It is reached from @unabandoned/browserify-sign through parse-asn1, and it was
+  the main route by which the dead create-hash family re-entered that tree.
+  Upstream is not abandoned - it released in 2026 - but it carries 2018 packages
+  and shows no sign of moving off them, which leaves consumers holding the rot
+  either way. Forked to take the browser digests from @unabandoned/hash.js and
+  the Node HMAC from node:crypto directly.
+
+status: active
+
+used-by:
+  - consumer: "@unabandoned/parse-asn1"
+    purpose: "Derives keys for the encrypted-private-key paths in @unabandoned/browserify-sign."
+
+tags: [crypto, pbkdf2, kdf, browser, browserify]
