@@ -1,6 +1,6 @@
 'use strict';
 
-var test = require('tape');
+var test = require('./tape');
 var pbkdf2 = require('..');
 var precondition = require('../lib/precondition');
 var nodeCrypto = require('crypto');
