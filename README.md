@@ -1,4 +1,11 @@
-# pbkdf2 <sup>[![Version Badge][2]][1]</sup>
+# @unabandoned/pbkdf2 <sup>[![Version Badge][2]][1]</sup>
+
+> A maintained fork of [crypto-browserify/pbkdf2](https://github.com/crypto-browserify/pbkdf2),
+> adopted because it was the route by which `create-hash` and `create-hmac` — neither
+> released since 2018 — re-entered the `@unabandoned/browserify-sign` tree. Published as
+> [`@unabandoned/pbkdf2`](https://www.npmjs.com/package/@unabandoned/pbkdf2); the API is
+> unchanged from upstream.
+
 
 This library provides the functionality of PBKDF2 with the ability to use any supported hashing algorithm returned from `crypto.getHashes()`
 
@@ -14,7 +21,7 @@ This library provides the functionality of PBKDF2 with the ability to use any su
 ## Usage
 
 ```js
-var pbkdf2 = require('pbkdf2')
+var pbkdf2 = require('@unabandoned/pbkdf2')
 var derivedKey = pbkdf2.pbkdf2Sync('password', 'salt', 1, 32, 'sha512')
 
 ...
