@@ -4,7 +4,7 @@
 // SHA-256/SHA-512 test vectors from:
 // https://stackoverflow.com/questions/5130513/pbkdf2-hmac-sha2-test-vectors
 // https://stackoverflow.com/questions/15593184/pbkdf2-hmac-sha-512-test-vectors
-var tape = require('tape');
+var tape = require('./tape');
 var satisfies = require('semver').satisfies;
 var Buffer = require('safe-buffer').Buffer;
 

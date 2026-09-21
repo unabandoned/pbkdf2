@@ -1,6 +1,6 @@
 'use strict';
 
-var test = require('tape');
+var test = require('./tape');
 var SafeBuffer = require('safe-buffer').Buffer;
 
 var toBuffer = require('../lib/to-buffer');
