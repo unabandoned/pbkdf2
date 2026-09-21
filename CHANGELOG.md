@@ -5,6 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [3.2.2](https://github.com/unabandoned/pbkdf2/compare/pbkdf2-v3.2.1...pbkdf2-v3.2.2) (2026-09-21)
+
+
+### Dependencies & maintenance
+
+* **deps:** update dependency semver to v7 ([#8](https://github.com/unabandoned/pbkdf2/issues/8)) ([1ea84c6](https://github.com/unabandoned/pbkdf2/commit/1ea84c6be95183db92f8bb74ce70038b80afa246))
+* **deps:** update dependency tape to v5.10.2 ([#7](https://github.com/unabandoned/pbkdf2/issues/7)) ([3eeb510](https://github.com/unabandoned/pbkdf2/commit/3eeb510a8cde04b6b31fd4814e6d55d1c8a57f91))
+* use the native Object.assign instead of the shim ([#9](https://github.com/unabandoned/pbkdf2/issues/9)) ([6d5d2f5](https://github.com/unabandoned/pbkdf2/commit/6d5d2f5a652fb83f0fde524c35b5a5debea23563))
+
 ## [3.2.1](https://github.com/unabandoned/pbkdf2/compare/pbkdf2-v3.2.0...pbkdf2-v3.2.1) (2026-09-21)
 
 
