@@ -5,6 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [3.2.3](https://github.com/unabandoned/pbkdf2/compare/pbkdf2-v3.2.2...pbkdf2-v3.2.3) (2026-09-22)
+
+
+### Dependencies & maintenance
+
+* **deps:** update dependency @types/node to v25.9.8 ([#14](https://github.com/unabandoned/pbkdf2/issues/14)) ([ae31f97](https://github.com/unabandoned/pbkdf2/commit/ae31f97c6131d391c2a35a7b65c182c30704c4b0))
+* drop the inherited funding file ([#13](https://github.com/unabandoned/pbkdf2/issues/13)) ([98bc66d](https://github.com/unabandoned/pbkdf2/commit/98bc66d047ac03533263ae32fcb67d7a4246df69))
+* run on node:test instead of tape ([#11](https://github.com/unabandoned/pbkdf2/issues/11)) ([eaf1074](https://github.com/unabandoned/pbkdf2/commit/eaf1074e769358a9a3a60b498c02821a197f71cd))
+
 ## [3.2.2](https://github.com/unabandoned/pbkdf2/compare/pbkdf2-v3.2.1...pbkdf2-v3.2.2) (2026-09-21)
 
 
