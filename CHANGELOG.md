@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [3.2.4](https://github.com/unabandoned/pbkdf2/compare/pbkdf2-v3.2.3...pbkdf2-v3.2.4) (2026-09-23)
+
+
+### Bug Fixes
+
+* stop dev-only commits from cutting releases ([#17](https://github.com/unabandoned/pbkdf2/issues/17)) ([501f420](https://github.com/unabandoned/pbkdf2/commit/501f42044162d267b728581b002a31daeb1b2ac8))
+
 ## [3.2.3](https://github.com/unabandoned/pbkdf2/compare/pbkdf2-v3.2.2...pbkdf2-v3.2.3) (2026-09-22)
 
 
