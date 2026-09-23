@@ -1,6 +1,13 @@
 {
   "name": "@unabandoned/pbkdf2",
   "version": "3.2.4",
+  "files": [
+    "CHANGELOG.md",
+    "browser.js",
+    "index.d.ts",
+    "index.js",
+    "lib"
+  ],
   "description": "This library provides the functionality of PBKDF2 with the ability to use any supported hashing algorithm returned from crypto.getHashes()",
   "keywords": [
     "pbkdf2",
