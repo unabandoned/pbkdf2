@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [3.2.5](https://github.com/unabandoned/pbkdf2/compare/pbkdf2-v3.2.4...pbkdf2-v3.2.5) (2026-10-09)
+
+
+### Dependencies & maintenance
+
+* use the buffer module instead of safe-buffer ([#25](https://github.com/unabandoned/pbkdf2/issues/25)) ([624d733](https://github.com/unabandoned/pbkdf2/commit/624d7330d5f53c1a512f273a9377f73e7e45f9b7))
+
 ## [3.2.4](https://github.com/unabandoned/pbkdf2/compare/pbkdf2-v3.2.3...pbkdf2-v3.2.4) (2026-09-23)
 
 
