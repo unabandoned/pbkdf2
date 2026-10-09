@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [3.2.7](https://github.com/unabandoned/pbkdf2/compare/pbkdf2-v3.2.6...pbkdf2-v3.2.7) (2026-10-09)
+
+
+### Bug Fixes
+
+* require Node &gt;=20 in engines, the oldest version CI tests ([#30](https://github.com/unabandoned/pbkdf2/issues/30)) ([a9d5fe8](https://github.com/unabandoned/pbkdf2/commit/a9d5fe8779ce8d3b0a7bb5fad2888daf8db6e9f4))
+
 ## [3.2.6](https://github.com/unabandoned/pbkdf2/compare/pbkdf2-v3.2.5...pbkdf2-v3.2.6) (2026-10-09)
 
 
