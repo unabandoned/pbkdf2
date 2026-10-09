@@ -3,7 +3,7 @@
 var createHmac = require('create-hmac');
 var checkParameters = require('../lib/precondition');
 var defaultEncoding = require('../lib/default-encoding');
-var { Buffer } = require('safe-buffer');
+var { Buffer } = require('buffer');
 
 module.exports = function pbkdf2(password, salt, iterations, keylen, digest) {
 	if (!Buffer.isBuffer(password)) {

@@ -6,7 +6,7 @@
 // https://stackoverflow.com/questions/15593184/pbkdf2-hmac-sha-512-test-vectors
 var tape = require('./tape');
 var satisfies = require('semver').satisfies;
-var Buffer = require('safe-buffer').Buffer;
+var Buffer = require('buffer').Buffer;
 
 var node = require('crypto');
 
