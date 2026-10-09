@@ -42,8 +42,7 @@
     "typescript": "next"
   },
   "dependencies": {
-    "@unabandoned/hash.js": "^1.4.0",
-    "safe-buffer": "^5.2.1"
+    "@unabandoned/hash.js": "^1.4.0"
   },
   "engines": {
     "node": ">= 0.10"
