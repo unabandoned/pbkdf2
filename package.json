@@ -45,7 +45,7 @@
     "@unabandoned/hash.js": "^1.4.0"
   },
   "engines": {
-    "node": ">= 0.10"
+    "node": ">=20"
   },
   "auto-changelog": {
     "output": "CHANGELOG.md",
