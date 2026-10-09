@@ -8,6 +8,26 @@ upstream:
     still released, but shipping create-hash and create-hmac - both untouched
     since 2018 - as runtime dependencies
 
+  # Upstream commits looked at and deliberately not pulled as-is, so the drift
+  # report stops re-reporting them and a genuinely new commit stands out.
+  reviewed:
+    - sha: 493d8d8f
+      decision: declined
+      note: >-
+        not merged as-is (it requires create-hash, which this fork dropped);
+        the same fix is ported to lib/sync.js on node:crypto in #27
+    - sha: bbc305eb
+      decision: declined
+      note: >-
+        dev-dep bumps for tooling this fork does not carry (ljharb eslint
+        config, attw, auto-changelog, tape); Renovate manages ours
+    - sha: 3905818f
+      decision: declined
+      note: "skips rmd160 in the long-password test on Node 17; CI here runs 20, 22 and 24"
+    - sha: e09b47aa
+      decision: declined
+      note: "upstream's v3.1.7 version bump; versions here come from release-please"
+
 summary: >-
   PBKDF2 key derivation for Node and the browser, using node:crypto where it is
   available and a pure-JavaScript implementation everywhere else.
